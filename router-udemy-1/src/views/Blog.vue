@@ -1,9 +1,14 @@
 <template>
-    blog
+    <Titulo texto="Titulo de mi blog" />
 </template>
 
-<script setup>
-
+<script>
+import Titulo from '../components/Titulo.vue'
+export default {
+    components: {
+        Titulo
+    }
+}
 </script>
 
 <style lang="scss" scoped>
