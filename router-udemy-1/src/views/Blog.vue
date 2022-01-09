@@ -1,7 +1,5 @@
 <template>
-    <div>
-
-    </div>
+    blog
 </template>
 
 <script setup>
