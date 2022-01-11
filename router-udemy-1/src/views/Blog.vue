@@ -2,7 +2,9 @@
     <Titulo texto="Titulo de mi blog" />
     <!-- <button @click="consumirApi" >Consumir API</button> -->
     <div v-for="item in arrayBlog" :key="item.id">
-        {{ item.title }}
+        <router-link :to="`/blog/${item.id}`">
+            {{item.title}}
+        </router-link>       
     </div>
 </template>
 
